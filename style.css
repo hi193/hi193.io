@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+     font-family: 'Varela Round', 'Quicksand', sans-serif;
+    background-color: #800020;
+  }
+  
+  .postcard {
+    width: 1000px;
+    height: 550px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    box-shadow: .8em .8em 15px rgba(0,0,0,.3);
+     -ms-transform: rotate(2.0deg); /* IE 9 */
+      -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
+      transform: rotate(2.5deg);
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #fcf7f7;
+    margin-bottom: -2px;
+  }
+  
+  p {
+    display: inline;
+    font-size: 1.8em;
+  }
+  
+  /*animation*/
+  .postcard:hover,
+  .postcard:active,
+  .postcard:focus{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  
+  
+  }
+  
+  /*form*/
+  input{
+    border: none;
+    border-radius: 4%;
+    height: 2.5em;
+    width: ;
+    padding: em;
+    font-size: 1.3em;
+    font-family: 'Varela Round', 'Quicksand', sans-serif;
+  }
+
+  textarea {
+    border: none;
+    border-radius: 4%;
+    height: 3em;
+    padding: .7em;
+    font-size: 1.3em;
+    font-family: 'Varela Round', 'Quicksand', sans-serif;
+  }
+  
+  input:focus,
+  textarea:focus {
+     outline-color: pink;
+  }
+ 
+  
+  #address {
+    text-decoration: underline;
+  }
+  
+  textarea {
+    overflow: auto;
+    resize: none;
+    height: 11.5em;
+    width: 43em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+  }
+  
+  .push{
+    margin-bottom: 1em;
+    margin-top: .5em;
+  }
+  
+  
+  
+ 
+  
+  
+  
